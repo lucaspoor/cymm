@@ -3,14 +3,21 @@ import { Producto } from "./Producto";
 type ProductoProps = {
   producto: Producto;
 };
+
+const lorem = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat mauris ut purus hendrerit imperdiet. Sed vitae ipsum eleifend, gravida erat ac, efficitur nibh.`;
 export function ProductoComponent({
-  producto: { nombre, descripcion },
+  producto: { nombre, descripcion, foto },
 }: ProductoProps) {
+  const descripFinal = descripcion.startsWith("Developed")
+    ? lorem
+    : descripcion;
+
   return (
     <div
       className="col-lg-4 col-md-6 shuffle-item shuffle-item--visible"
       data-groups='["government","healthcare"]'
       style={{
+        padding: ".25em",
         visibility: "visible",
         willChange: "transform",
         opacity: 1,
@@ -19,29 +26,24 @@ export function ProductoComponent({
         transitionProperty: "transform, opacity",
       }}
     >
-      <div className="project-img-container">
-        <a
-          className="gallery-popup cboxElement"
-          href="images/projects/project1.jpg"
-          aria-label="project-img"
-        >
-          <img
-            className="img-fluid"
-            src="images/projects/project1.jpg"
-            alt="project-img"
-          />
-          <span className="gallery-icon">
-            <i className="fa fa-plus" />
-          </span>
-        </a>
-        <div className="project-item-info">
-          <div className="project-item-info-content">
-            <h3 className="project-item-title">
-              <a href="projects-single.html">{nombre}</a>
-            </h3>
-            <p className="project-cat">{descripcion}</p>
-          </div>
-        </div>
+      <div
+        style={{
+          margin: ".5em",
+          padding: "1em",
+          border: "solid 1px #ccc",
+          height: "550px",
+        }}
+      >
+        <img
+          className="img-fluid"
+          src={foto}
+          alt="project-img"
+          style={{ border: "solid 1px #ccc", marginBottom: "1em" }}
+        />
+        <h4 className="project-item-title">
+          <a href="projects-single.html">{nombre}</a>
+        </h4>
+        <p className="project-cat">{descripFinal}</p>
       </div>
     </div>
   );

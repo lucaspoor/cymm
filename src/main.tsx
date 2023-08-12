@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
-import "./index.css";
+import ProductosRoot from "./ProductosRoot.tsx";
 
 ReactDOM.createRoot(document.getElementById("productos")!).render(
   <React.StrictMode>
-    <App />
+    <ProductosRoot />
   </React.StrictMode>
 );
