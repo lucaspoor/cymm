@@ -6,7 +6,7 @@ export const productos: Producto[] = [
     foto: "../public/images/projects/project1.jpg",
     nombre: "Equipo Hospitalario",
     descripcion:
-      "Manifolds, compresores, alarmas, bombas de vacio, flujometros, mobiliario clínico, y otros muchos productos mas.",
+      "Mobiliario clínico, compresores, alarmas, bombas de vacio, flujometros, manifolds , y otros muchos productos mas.",
   },
   {
     id: 2,
