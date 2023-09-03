@@ -13,37 +13,20 @@ export function ProductoComponent({
     : descripcion;
 
   return (
-    <div
-      className="col-lg-4 col-md-6 shuffle-item shuffle-item--visible"
-      data-groups='["government","healthcare"]'
-      style={{
-        padding: ".25em",
-        visibility: "visible",
-        willChange: "transform",
-        opacity: 1,
-        transitionDuration: "250ms",
-        transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
-        transitionProperty: "transform, opacity",
-      }}
-    >
-      <div
-        style={{
-          margin: ".5em",
-          padding: "1em",
-          border: "solid 1px #ccc",
-          height: "550px",
-        }}
-      >
-        <img
-          className="img-fluid"
-          src={foto}
-          alt="project-img"
-          style={{ border: "solid 1px #ccc", marginBottom: "1em" }}
-        />
-        <h4 className="project-item-title">
-          <a href="projects-single.html">{nombre}</a>
-        </h4>
-        <p className="project-cat">{descripFinal}</p>
+    <div className="col-lg-4 mb-4">
+      <div className="card">
+        <img src={foto} alt="" className="card-img-top" />
+        <div className="card-body">
+          <h4 className="project-item-title">{nombre}</h4>
+          <p className="card-text">{descripcion}</p>
+          <a
+            href=""
+            className="btn btn-outline-success btn-sm"
+            style={{ color: "#00a7a7", borderColor: "#00a7a7" }}
+          >
+            Ver en el catalogo
+          </a>
+        </div>
       </div>
     </div>
   );
