@@ -6,20 +6,20 @@ export const productos: Producto[] = [
     foto: "../public/images/projects/project1.jpg",
     nombre: "Equipo Hospitalario",
     descripcion:
-      "Mobiliario clínico, compresores, alarmas, bombas de vacio, flujometros, manifolds , y otros muchos productos mas.",
+      "Equipo hospitalario con gran variedad con: mobiliario clínico, compresores, alarmas, bombas de vacio, flujometros, manifolds , y otros muchos productos mas.",
   },
   {
     id: 2,
     foto: "../public/images/projects/project2.jpg",
     nombre: "Equipo Medico",
     descripcion:
-      "Vaso humidificador desechable para humidificar el o2 de los cilindros y evitar irritación al administrarlo, fabricado en plástico resistente .",
+      "Equipo medico de alta calidad contando con productos tales como: cilindros, reguladores, carros porta cilindros, mascarillas, cánulas y humidificadores.",
   },
   {
     id: 3,
     foto: "../public/images/projects/project3.jpg",
     nombre: "Equipo de Seguridad",
     descripcion:
-      "Regulador de o2 2 vías de presión continua de 0 a 15 lts. diseñado con dos salidas para un aspirador y válvula de demanda. fabricado en aluminio de alta calidad, cuenta con perilla reguladora y carátula de fácil.",
+      "Equipos para la seguridad respiratorial y corporal con productos tales como: respiradores, mascarillas, overoles, guantes y protectores para guante.",
   },
 ];

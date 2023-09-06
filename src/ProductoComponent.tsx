@@ -21,7 +21,8 @@ export function ProductoComponent({
           <p className="card-text">{descripcion}</p>
           <a
             href=""
-            className="btn btn-outline-success btn-sm"
+            className="btn btn-outline btn-sm"
+            type="sumbit"
             style={{ color: "#00a7a7", borderColor: "#00a7a7" }}
           >
             Ver en el catalogo
