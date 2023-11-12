@@ -534,6 +534,18 @@ a[href^="tel"] {
   background: #23282d;
 }
 
+.btn-outline-light {
+  border-radius: 3px;
+  padding: 15px 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  transition: 350ms;
+  font-size: 14px;
+  border-color: #fff;
+}
+
 .btn-primary:hover,
 .btn-dark:hover,
 .btn-white.btn-primary:hover {

@@ -20,7 +20,7 @@ export function ProductoComponent({
           <h4 className="project-item-title">{nombre}</h4>
           <p className="card-text">{descripcion}</p>
           <a
-            href=""
+            href="../catalogo-2020.pdf"
             className="btn btn-outline btn-sm"
             type="sumbit"
             style={{ color: "#00a7a7", borderColor: "#00a7a7" }}
