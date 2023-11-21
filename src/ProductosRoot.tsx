@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="row">
       {productos.map((p) => (
-        <ProductoComponent producto={p} />
+        <ProductoComponent producto={p} key={p.id} />
       ))}
     </div>
   );

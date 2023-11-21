@@ -4,14 +4,9 @@ type ProductoProps = {
   producto: Producto;
 };
 
-const lorem = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat mauris ut purus hendrerit imperdiet. Sed vitae ipsum eleifend, gravida erat ac, efficitur nibh.`;
 export function ProductoComponent({
   producto: { nombre, descripcion, foto },
 }: ProductoProps) {
-  const descripFinal = descripcion.startsWith("Developed")
-    ? lorem
-    : descripcion;
-
   return (
     <div className="col-lg-4 mb-4">
       <div className="card">
