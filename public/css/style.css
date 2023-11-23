@@ -22,10 +22,6 @@ FACEBOOK: https://www.facebook.com/themefisher
 /* Typography
 ================================================== */
 
-html {
-  /* scroll-behavior: smooth; */
-}
-
 body {
   background: #fff;
   color: #555;
@@ -3390,11 +3386,11 @@ label {
 }
 
 .wtsp {
-  display:none;
+  display: none;
 }
 @media (max-width: 767px) {
   .wtsp {
-    display:block;
+    display: block;
   }
   .copyright-info {
     display: flex;
@@ -3410,9 +3406,6 @@ label {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-
-
 
 .wtsp {
   position: fixed;
