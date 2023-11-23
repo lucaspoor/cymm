@@ -3392,6 +3392,10 @@ label {
   .wtsp {
     display: block;
   }
+
+  .copyright {
+    padding-bottom: 6em
+  }
   .copyright-info {
     display: flex;
     justify-content: center;
@@ -3411,4 +3415,5 @@ label {
   position: fixed;
   bottom: 18px;
   right: 96px;
+  z-index: 1000;
 }
