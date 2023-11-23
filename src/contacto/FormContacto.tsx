@@ -116,8 +116,10 @@ export default function FormContacto() {
                   name="email"
                   value={values.email}
                   onChange={handleChange}
+                  isValid={touched.email && !errors.email}
                   isInvalid={!!errors.email}
                 />
+                <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                 <Form.Control.Feedback type="invalid">
                   {errors.email}
                 </Form.Control.Feedback>

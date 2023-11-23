@@ -20,7 +20,7 @@ export function ProductoComponent({
             type="sumbit"
             style={{ color: "#00a7a7", borderColor: "#00a7a7" }}
           >
-            Ver en el catalogo
+            Ver en el catálogo
           </a>
         </div>
       </div>
