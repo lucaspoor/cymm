@@ -3389,7 +3389,13 @@ label {
   height: 26px;
 }
 
+.wtsp {
+  display:none;
+}
 @media (max-width: 767px) {
+  .wtsp {
+    display:block;
+  }
   .copyright-info {
     display: flex;
     justify-content: center;
@@ -3404,3 +3410,12 @@ label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+.wtsp {
+  position: fixed;
+  bottom: 18px;
+  right: 96px;
+}

@@ -12,7 +12,7 @@ const schema = yup.object().shape({
     .string()
     .email("Email inválido")
     .required("Por favor ingrese el email"),
-  mensaje: yup.string().required(),
+  mensaje: yup.string().required("Por favor ingrese el mensaje"),
 });
 
 interface DatosEmail {
