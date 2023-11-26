@@ -2470,7 +2470,7 @@ img.testimonial-thumb {
 .copyright {
   background: #00a7a7;
   color: #111;
-  padding: 25px 0;
+  padding: 25px 0 70px;
   position: relative;
   z-index: 1;
   font-weight: 600;
