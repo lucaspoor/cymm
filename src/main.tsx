@@ -15,9 +15,9 @@ ReactDOM.createRoot(document.getElementById("form-contacto")!).render(
   </React.StrictMode>
 );
 
-const condor = "NTY5MzkyMjIwMjY=";
-const puma = "Y29udGFjdG9AY3ltbWVkaWNhbC5jbA==";
-const ttt = atob(condor);
+const te = "NTY5MzkyMjIwMjY=";
+const em = "Y29udGFjdG9AY3ltbWVkaWNhbC5jbA==";
+const ttt = atob(te);
 
 (function () {
   const a = /(\d\d)(\d)(\d{4})(\d{4})/.exec(ttt);
@@ -33,7 +33,7 @@ const ttt = atob(condor);
 })();
 
 (function () {
-  const m = atob(puma);
+  const m = atob(em);
   const els = document.getElementsByClassName("email-contacto");
   Array.from(els).forEach((el) => {
     ReactDOM.createRoot(el).render(<a href={`mailto:${m}`}>{m}</a>);
